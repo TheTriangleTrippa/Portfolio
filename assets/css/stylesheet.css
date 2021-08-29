@@ -9,7 +9,7 @@ body {
     padding: 0;
     margin: 0;
     position: absolute;
-    color: pink;
+    color: purple;
     top: 2em;
     left: 1em;
     width: 9em }
@@ -33,10 +33,10 @@ body {
  top: 12em;}
 
 
-  h2.Explore_head {
+  h2.exploration {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, serif;
-       top: 30em;}
+       top: 60em;}
 
 
   ul.navbar li {
@@ -56,12 +56,17 @@ body {
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted;
-    top: 10em}
+    top: 12em}
 
 p.bio {
 font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, serif }
+}
 
+address.site_signing{
+ top: 80em;     
+      
+      
 }
 
     img.drag {
