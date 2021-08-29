@@ -112,13 +112,13 @@ address.site_signing{
 .button span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
+ 
   transition: 0.5s;
 }
 
 .button span:after {
   content: '\00bb';
-  position: inline-block;
+ 
   opacity: 0;
   top: 0;
   right: -20px;
