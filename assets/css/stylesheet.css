@@ -26,12 +26,7 @@ body {
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid black }
-    img.pic {
-          padding: 0.3em;
-          position: absolute;
-          top: 30em;
-          left: 30em;
-          }
+
   ul.navbar a {
     text-decoration: none }
   a:link {
@@ -43,3 +38,10 @@ body {
     padding-top: 1em;
     border-top: thin dotted }
 
+    img.pic {
+          
+          position: absolute;
+          padding: 0.3em;
+          top: 30em;
+          left: 30em;
+          }
