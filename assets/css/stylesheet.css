@@ -17,8 +17,13 @@ body {
 
        p.bio {
     position: absolute;
-    top: 20em;
+    top: 24em;
     left: 12em;
+    width: 40% }
+
+    p.bio2 {
+    position: inline-block;
+    left: 16em;
     width: 40% }
 
 
@@ -81,7 +86,7 @@ address.site_signing{
 
 
   .button {
-  display: absolute;
+  display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
   border: none;
