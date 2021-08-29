@@ -18,9 +18,29 @@ body {
     top: 6em;
     left: 10em + 5%;
     width: 60% }
-        h1 {
+
+
+        h1.title {
     font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
+          SunSans-Regular, serif}
+      ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+
+  h2.about_me {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, serif }
+      ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+
+  h2.Explore_head {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, serif }
       ul.navbar li {
     background: white;
     margin: 0.5em 0;
@@ -36,7 +56,10 @@ body {
         address {
     margin-top: 1em;
     padding-top: 1em;
-    border-top: thin dotted }
+    border-top: thin dotted;
+    top: 10em}
+
+
 
     img.drag {
           
@@ -48,6 +71,8 @@ body {
           min_top: 10em;
           max_height: 20em;
           }
+
+
   .button {
   display: inline-block;
   border-radius: 4px;
