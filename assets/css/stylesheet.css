@@ -16,7 +16,7 @@ body {
 
 
        p.bio {
-    position: absolute;
+
     top: 13em;
     left: 12em;
     width: 55% }
@@ -51,7 +51,7 @@ body {
 
   ul.navbar li {
     background: white;
-    margin: 0.5em 0;
+    margin: 0.5em;
     padding: 0.3em;
     border-right: 1em solid black
     }
