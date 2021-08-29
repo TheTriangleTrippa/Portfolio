@@ -26,6 +26,12 @@ body {
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid black }
+    image.pic {
+          padding: 0.3em;
+          position: absoloute;
+          top: 30em;
+          left: 30em;
+          width:auto}
   ul.navbar a {
     text-decoration: none }
   a:link {
