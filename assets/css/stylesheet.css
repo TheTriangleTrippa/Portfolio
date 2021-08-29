@@ -36,12 +36,14 @@ body {
  
 
   h2.about_me {
+        position: absolute;
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, serif;
  top: 12em;}
 
 
   h2.exploration {
+        position: absolute;
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, serif;
        top: 100em;
@@ -55,6 +57,7 @@ body {
     }
 
   ul.navbar a {
+        position: absolute;
     text-decoration: none }
   a:link {
     color: blue }
