@@ -16,7 +16,7 @@ body {
 
 
        p.bio {
-
+    text-align: justify;
     top: 13em;
     left: 12em;
     width: 55% }
