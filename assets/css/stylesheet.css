@@ -82,10 +82,10 @@ address.site_signing{
     img.drag {
           
           position: absolute;
-          margin: 2px;
+       
           top: 13em;
-          left: 60% + 16em;
-          width: 20em;
+          left: 60% + 20em;
+          width: 15em;
           
           }
 
