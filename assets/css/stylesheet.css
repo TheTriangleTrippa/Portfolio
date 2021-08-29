@@ -15,9 +15,9 @@ body {
     width: 9em }
        p.bar {
     position: absolute;
-    top: 20em;
-    left: 10em;
-    width: 1em }
+    top: 6em + 10%;
+    left: 10em + 5%;
+    width: 60% }
         h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
