@@ -44,6 +44,7 @@ body {
           padding: 3%;
           top: 6em + 30%;
           left: 60% + 10em;
-          min_height: 20em;
-          max_height: 40em;
+          width: 10em;
+          min_top: 10em;
+          max_height: 20em;
           }
