@@ -17,7 +17,7 @@ body {
 
        p.bio {
     position: absolute;
-    top: 24em;
+    top: 23em;
     left: 16em;
     width: 55% }
 
@@ -52,7 +52,7 @@ body {
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid black
-    top: 30em}
+    }
 
   ul.navbar a {
     text-decoration: none }
@@ -64,7 +64,7 @@ body {
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted;
-    top: 12em}
+    top: 23em}
 
 
 
