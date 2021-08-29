@@ -22,30 +22,29 @@ body {
 
         h1.title {
     font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, serif}
-      ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
+          SunSans-Regular, serif;
+    top: 10em;
+}
+ 
 
   h2.about_me {
     font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, serif }
-      ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
+          SunSans-Regular, serif;
+ top: 12em;}
+
 
   h2.Explore_head {
     font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, serif }
-      ul.navbar li {
+          SunSans-Regular, serif;
+       top: 30em;}
+
+
+  ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
+    border-right: 1em solid black
+    top: 30em}
 
   ul.navbar a {
     text-decoration: none }
@@ -59,7 +58,11 @@ body {
     border-top: thin dotted;
     top: 10em}
 
+p.bio {
+font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, serif }
 
+}
 
     img.drag {
           
