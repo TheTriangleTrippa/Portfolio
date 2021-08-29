@@ -18,13 +18,14 @@ body {
        p.bio {
     position: absolute;
     top: 24em;
-    left: 12em;
-    width: 40% }
+    left: 16em;
+    width: 55% }
 
     p.bio2 {
-    position: inline-block;
+    position: absolute;
     left: 16em;
-    width: 40% }
+    top: 32em;
+    width: 55% }
 
 
         h1.title {
@@ -111,7 +112,7 @@ address.site_signing{
 
 .button span:after {
   content: '\00bb';
-  position: absolute;
+  position: inline-block;
   opacity: 0;
   top: 0;
   right: -20px;
