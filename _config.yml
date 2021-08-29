@@ -8,6 +8,6 @@ twitter_username:
 github_username:  
 
 sass:
-  sass_dir: 
+  sass_dir: _sass
 
 #icon: /assets/img/icon.jpg
