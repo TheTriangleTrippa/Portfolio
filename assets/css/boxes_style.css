@@ -5,22 +5,22 @@ body {
     color: purple;
     background-color: #d8da3d }
 
-div.athc_bx1 {
+athc_bx1 {
   postion:absolute;
   top: 10%;
   left: 10%;
 }
-div.athc_bx2 {
+athc_bx2 {
   postion:absolute;
   top: 30%;
   left: 30%;
 }
-div.athc_bx3 {
+athc_bx3 {
   postion:absolute;
   top: 30%;
   left: 10%;
 }
-div.athc_bx4 {
+athc_bx4 {
   postion:absolute;
   top: 10%;
   left: 30%;
