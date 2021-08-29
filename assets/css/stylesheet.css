@@ -17,8 +17,8 @@ body {
 
        p.bio {
     position: absolute;
-    top: 23em;
-    left: 16em;
+    top: 13em;
+    left: 12em;
     width: 55% }
 
     p.bio2 {
@@ -72,7 +72,8 @@ body {
 
 
 address.site_signing{
- top: 80em;     
+    position: absolute;
+ top: 100em;     
       
       
 }
