@@ -84,9 +84,9 @@ address.site_signing{
     img.drag {
           
           position: absolute;
-       
-          top: 12em;
-          left: 47em;
+          text-align: right;
+          top: 6em;
+          left: 80em;
           width: 15em;
           
           }
