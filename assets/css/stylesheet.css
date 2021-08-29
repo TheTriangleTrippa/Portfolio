@@ -23,10 +23,9 @@ ul.navbar {
     left: 12em;
     width: 55% }
 
-    p.bio2 {
-    position: absolute;
+    p.sub {
     left: 16em;
-    top: 32em;
+    top: 100em;;
     width: 55% }
 
 
