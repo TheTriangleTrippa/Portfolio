@@ -13,10 +13,12 @@ body {
     top: 2em;
     left: 1em;
     width: 9em }
-       p.bar {
+
+
+       p.bio {
     position: absolute;
     top: 6em;
-    left: 10em + 5%;
+    left: 12;
     width: 60% }
 
 
@@ -36,8 +38,8 @@ body {
   h2.exploration {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, serif;
-       top: 60em;}
-
+       top: 100em;
+}
 
   ul.navbar li {
     background: white;
@@ -58,10 +60,7 @@ body {
     border-top: thin dotted;
     top: 12em}
 
-p.bio {
-font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, serif }
-}
+
 
 address.site_signing{
  top: 80em;     
