@@ -23,11 +23,11 @@ div.athc_bx2 {
 }
 div.athc_bx3 {
   postion:absolute;
-      background-color=pink; 
-     padding: 30px; 
-    boarder: 1px solid blue;
-  top: 30%;
-  left: 10%;
+background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
 div.athc_bx4 {
   postion:absolute;
