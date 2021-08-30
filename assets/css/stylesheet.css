@@ -131,18 +131,18 @@ address.site_signing{
 
  .dl-button .button {
   display: inline-block;
-  border-radius: 4px;
+
   background-color: #ffcc00;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 1em;
-  padding: 2em;
+  
   width: 9em;
   height: 1.5em;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px; 
+
 
 }
 
