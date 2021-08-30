@@ -135,11 +135,11 @@ address.site_signing{
   background-color: #d9d9d6;
   border: 4px solid #ffcc00;
   color: black;
-  text-align: left;
+  text-align: center;
   font-size: 0.6em;
   
-  width: 9em;
-  height: 1.5em;
+  width: 150px;
+  height: 2.5em;
   transition: all 0.5s;
   cursor: pointer;
 
