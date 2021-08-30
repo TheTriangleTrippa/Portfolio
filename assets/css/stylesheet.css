@@ -140,7 +140,7 @@ address.site_signing{
   font-size: 1em;
   top-paddingL 9em;
   width: 150px;
-  padding: 2em;
+ 
   transition: all 0.5s;
   cursor: pointer;
   float:left
