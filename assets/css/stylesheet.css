@@ -6,7 +6,7 @@ body {
     background-color: #FFFFFF }
         
 .container {
-  background-color: none; /* Green */
+  background-color: lightgrey; /* Green */
   border: none;
   color: white;
   width: 150px;
