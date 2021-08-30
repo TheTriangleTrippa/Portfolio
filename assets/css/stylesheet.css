@@ -139,7 +139,7 @@ address.site_signing{
   font-size: 1em;
   padding: 2em;
   width: 9em;
-  height: 1em;
+  height: 1.5em;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
