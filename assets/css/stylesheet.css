@@ -108,7 +108,7 @@ address.site_signing{
   cursor: pointer;
   margin: 5px;
   top: 120em;
-  float: right;
+  float: left;
 }
 
   .prod-button .button {
