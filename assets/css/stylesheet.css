@@ -75,8 +75,8 @@ ul.navbar {
 
 
 address.site_signing{
-   
- top: 100em;     
+ position: inline-block;
+ left: 12em;   
       
       
 }
@@ -133,10 +133,10 @@ address.site_signing{
   display: inline;
 
   background-color: #d9d9d6;
-  border: 2px solid #ffcc00;;
+  border: 4px solid #ffcc00;;
   color: black;
   text-align: left;
-  font-size: 1em;
+  font-size: 0.6em;
   
   width: 9em;
   height: 1.5em;
