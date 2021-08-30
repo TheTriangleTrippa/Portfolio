@@ -130,12 +130,12 @@ address.site_signing{
 }
 
  .dl-button .button {
-  display: inline-block;
+  display: inline;
 
   background-color: #ffcc00;
   border: none;
-  color: #FFFFFF;
-  text-align: center;
+  color: black;
+  text-align: left;
   font-size: 1em;
   
   width: 9em;
