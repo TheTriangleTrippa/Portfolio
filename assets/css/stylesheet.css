@@ -102,12 +102,13 @@ address.site_signing{
   text-align: center;
   font-size: 1em;
   padding: 2em;
-  width: 200px;
+  width: 300px;
+  height: 2.5em;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
   top: 120em;
-  left: 12em;
+  float: left;
 }
 
   .prod-button .button {
@@ -119,12 +120,13 @@ address.site_signing{
   text-align: center;
   font-size: 1em;
   padding: 2em;
-  width: 200px;
+  width: 300px;
+  height: 2.5em;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
   top: 120em;
-  left: 12em;
+ 
 }
 
  .cv-dl-buttin .button {
