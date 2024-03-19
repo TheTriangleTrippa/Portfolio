@@ -1,0 +1,41 @@
+body {
+      padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d }
+
+div.athc_bx1 {
+   postion:absolute;
+      background-color: black; 
+     padding: 30px; 
+    border: 1px solid black;
+width: 350px;
+}
+
+div.athc_bx2 {
+  postion:absolute;
+  background-color: red; 
+     padding: 30px;
+    width: 400;
+    boarder: 1px solid blue;
+  top: 60em;
+  left: 30%;
+}
+div.athc_bx3 {
+  postion:absolute;
+background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+div.athc_bx4 {
+  postion:absolute;
+      background-color: blue; 
+     padding: 30px; 
+    boarder: 1px solid blue;
+width: 350px;
+  top: 30em;
+  left: 30%;
+}
