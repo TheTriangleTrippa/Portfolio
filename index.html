@@ -6,14 +6,6 @@
 </head>
 <body>
 
-<container class="prof">
-  <img class="prof" src="assets/img/Liam_DP.jpg">
-  
-<!-- Sign and date the page, it's only polite! -->
-<credit class="prof"> <em>Made 30 Augaust 2021<br>
-  by Liam K. May.</em>
-</credit >
-</container>
 
   
 <!-- Site navigation menu -->
@@ -44,48 +36,68 @@
 
 <!-- Main content -->
 <h1 class="title">Welcome to my portfolio!</h1>
-
-<h2 class="about_me">A bit about me:</h2>
+<div class="frame">
+<div class="image">
+<container class="prof">
+  <img class="prof" src="assets/img/Liam_DP.jpg">
+  
+<!-- Sign and date the page, it's only polite! -->
+<credit class="prof"> <em>Made 30 Augaust 2021<br>
+  by Liam K. May.</em>
+</credit >
+</container>
+</div>
   
 
+<div class="text">
+<h2 class="about_me">A bit about me:</h2>
   
 <p class="bio">
   I'm a computer science and product design student graduate from University of Canterbury. 
-  I'm interested in the low end of the computer science domain, initially embarking on my life of higher
+  I'm interested in the low end of the computer science and Product Design domains, initially embarking on my life of higher
   education to play with robots/prosthetics. I started looking at Mechatronics engineering, but quickly
   decided that was not the route for me, moving towards a computer science and product design pathway in 
   my intermediate year. This route has left me in a very exciting situation and I can't wait to see
   where I end up! 
   
   <br><br>
-  Outside of study, I play Ice Hockey on a regular basis, and also enjoy riding dirtbikes. 
-  Online side the extreme nature, I am also creative playing guitar from a young age this has led 
+  Outside of study, I play Ice Hockey on a regular basis and also enjoy riding dirtbikes. 
+  I am also creative playing guitar from a young age this has led 
   to the part composition of an Extended Play (EP). As well as being highly involved in the fine 
   arts of painting and design, which is am musing to develop a game, in which I am doing the 
   concept artwork for – This is on the backburner because other priorities have taken place - 
   but perhaps one day I will finish or meet others to join my project.</p>
+  </div>
 
-<h2 class="exploration">Here are some branches to Design and Computer science:</h2>
+  </div>
+
+<h2 >Here are some branches to Design and Computer science:</h2>
   <p>Feel free to look at it all!</p>
-
-
+  
+<!--
+<div class="prod-button">     
+  <form action="./_includes/ProdDesign_pg.html" method="get" target="_blank">
+      <button class="button" style="vertical-align:middle"><span>Product Design </span> </button>
+  </form>
+</div> -->
 
 <div class="prod-button">     
-  <form action="https://thetriangletrippa.github.io/test/_includes/ProdDesign_pg.html" method="get" target="_blank">
+  <form action="./_includes/ProdDesign_pg.html" method="get" target="_self">
       <button class="button" style="vertical-align:middle"><span>Product Design </span> </button>
   </form>
 </div>
   
  <div class="sci-button"> 
-  <form action="https://thetriangletrippa.github.io/test/_includes/CompSci_pg.html" method="get" target="_blank">
+  <form href="./_includes/CompSci_pg.html" method="get" target="_self">
     <button class="button" style="vertical-align:middle"><span>Computer Science </span></button>
   </form>
+  
 </div>
 
   
 
   <br><br> <br><br>
-  <h2> Extended study info and motives: </h2>
+  <h2 class="exploration">Extended study info and motives: </h2>
    <p class="motivation"> Later in the course of my studies I completed postgraduate degree, the intent was to cross between computer science and embedded systems. 
     This support the backing of product design, the intent was to cross to UX or the controlling of embedded systems for further development. 
     Surrounding these postgraduate studies my specialisations became more apparent to application of embedded system, and basic understand of 
