@@ -1,9 +1,16 @@
+:root{
+	--height: 100%;
+
+}
+
+
 body {
       padding-left: 11em;
     font-family: Georgia, "Times New Roman",
           Times, serif;
     color: #000000;
-    background-color: #FFFFFF }
+
+	}
         
 .container {
   background-color: none; /* Green */
@@ -14,19 +21,17 @@ body {
 }
 
 .frame {
-display: grid;
+  display: grid;
   background-color: none; /* Green */
   border: none;
   color: black;
-
-   grid-template-columns: 64.6% 10em;
+  grid-template-columns: 64.6% 10em;
 }
 
         .text {
 		  grid-column: 1;
 		  grid-row: 1;
-		 
-		 
+
 		 }
 		 
 		.image{
@@ -37,14 +42,20 @@ display: grid;
  
 
 ul.navbar {
-          list-style-type: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
     position: absolute;
     color: #000000;
     top: 2em;
     left: 1em;
-    width: 9em }
+    width: 9em;
+background-color: none;
+	height: var(--height);
+   border-right-style: solid;
+   border-right-width: thin;
+   border-right-color: #AAAAAA;
+    }
 
 
        p.bio {
@@ -91,6 +102,9 @@ ul.navbar {
        top: 100em;
 }
 
+
+
+
   h2 {
       
     font-family: Helvetica, Geneva, Arial,
@@ -106,7 +120,15 @@ h3 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, serif;
        top: 100em;
-      font-size: 13px;
+   
+}
+
+h4 {
+      
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, serif;
+       top: 100em;
+   
 }
 
   ul.navbar li {
@@ -132,7 +154,25 @@ h3 {
     border: 1px black;
     top: 23em}
 
+.grid-href{
+	display: grid;
+	 grid-auto-flow: rows;
+	 grid-template-columns: repeat(5, 20%);
+	 text-align: center;
+	 
 
+	width: 55%;
+}
+
+.grid-item-start {
+		  grid-column: 1;
+		  grid-row: 1;
+}
+
+.grid-item-end {
+		  grid-column: 6;
+		  grid-row: 2;
+}
 
 address.site_signing{
  position: inline-block;

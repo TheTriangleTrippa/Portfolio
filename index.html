@@ -4,7 +4,7 @@
   <title>Liam May Portfolio</title>
  <link rel="stylesheet" href="assets/css/stylesheet.css"> 
 </head>
-<body>
+<body id="in">
 
 
   
@@ -48,7 +48,21 @@
 </container>
 </div>
   
-
+    <script>
+		  var r = document.querySelector(':root');
+		  const element = document.getElementById("total_height");
+		  let scroll_height = element.scrollHeight ;
+			 var a = getComputedStyle(r);
+			 var c = a.getPropertyValue('--height');
+			 
+			 document.getElementById ("demo").innerHTML = "current:" + c + "heihgtL:" + scroll_height;
+			 
+			 r.style.setProperty('--height', scroll_height + 'px');
+			 c = a.getPropertyValue('--height');
+			 document.getElementById ("demo1").innerHTML = "current:" + c + "heihgt:" + scroll_height;
+          
+           
+    </script>
 <div class="text">
 <h2 class="about_me">A bit about me:</h2>
   

@@ -1,14 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
+<html >
 <head>
    <title>Liam May Portfolio</title>
   <link rel="stylesheet" href="../assets/css/stylesheet.css">
 
  </head>
- <body>
+ <body id="total_height">
    
 <!-- Site navigation menu -->
- <ul class="navbar">
+<div class="nav-frame">
+	
+	
+         
+ <ul class="navbar" >
      <li><a>
          <form action="https://raw.githubusercontent.com/TheTriangleTrippa/Portfolio/5ac76c2d99d8d941c1ced57cc7c362c4fdcf9eac/LIAM-MAY-CV.pdf" method="get" target="_blank" >
           <button class="downloader" style="vertical-align:middle"><span>"Download My CV here!"</span>
@@ -21,22 +25,26 @@
      <li><a href="CompSciGraphics_pg.html">Computer Graphics Work.</a>
   <li><a href="links_pg.html">My hobbies: Exibition of me.</a>
 </ul>
-
+</div>
     
     <!-- Content -->
-    <h1 class="title"> A compeadium of my computer science <br>enducation and my intesrest in the field.</h1>
-   
-   <h3 class="languages">
-     <ul class="languages">
-        <li><a href="#python_id">Python</a>
-        <li><a href="#c_id">C, C# and C++ </a>
-        <li><a href="#sql_id"> SQL</a>
-        <li><a href="#java_id">Java </a>
-       <li> <a href="#html_id">HTML</a>
-        </ul>
-   </h3>
+    <h1 class="title"> A compeadium of my computer science <br>enducation and my interest in the field.</h1>
+    
 
-   <h2 class="heading1" id="python_id"> Python:</h2>
+   
+   <h4>
+     <div class="grid-href">
+		
+      <div class="href-item-start">  <a href="#python_id">Python</a></div>
+      <div>  <a href="#c_id">C, C# and C++ </a></div>
+     <div>  <a href="#sql_id"> SQL</a></div>
+     <div> <a href="#java_id">Java </a></div>
+      <div class="href-item-end">  <a href="#html_id">HTML</a> </div>
+      
+         </div>
+   </h4>
+
+   <h2 id="python_id"> Python:</h2>
    <p class="info"> Python was my primary programming language. I am able to do UX, Plotting, statistical, GIS implementations, machine learning of a range of implementations and basic networking and CUDA implementations.  Though the CUDA implementation of my code base is limited I have in-depth understanding of hardware and theoretical constraints and procedures. <br> <br>
 I also have a foundation in compliers and computing, this allows me to work with grammar and parse programming via state changes to allow programs and languages to be produced in python, following the fundamental ideas other programming languages can be produced under the environments of kernel-based implementations. <br><br>
 Other programming that I have specifically completed in python are greedy algorithmic implementation, Minor applications of Dynamic Programming and graphical implementation for both 2-3D representation. <br><br>
@@ -46,7 +54,8 @@ I have dabbled in low level python coding and have a keen interest in developing
  
 
   </p>
-   <h2 class="heading2" id="c_id"> C, C# and C++ (OpenGL):</h2>
+ 
+   <h2 id="c_id"> C, C# and C++ (OpenGL):</h2>
    <p class="info"> C programming and variations has been sued over a range of different environments and applications: </p>
 <ul> 
    <li> openGL for C++
@@ -54,15 +63,17 @@ I have dabbled in low level python coding and have a keen interest in developing
    <li>  C for embedded systems, OS low level sh level programming <br>
          concurrent programming and basic fullstack development
 </ul> 
-  <h3>Embedded systems:</h3> <p class="info"> Working over a range of MCU these being SAMS4, and multiple ARM controllers over the course of study, I have understood software and hardware implementations.  These range from inputs outputs and Digital signal processing and common protocol implementation through both software and hardware. I am capable of using an MPU without a peripheral interface by inspection of the system implementation and available resources to put together a useable interface for further software implementation.  I am familiar with profiling/ optimisation and debugging techniques for embedded systems.<br><br>
+  <h4>Embedded systems:</h4> <p class="info"> Working over a range of MCU these being SAMS4, and multiple ARM controllers over the course of study, I have understood software and hardware implementations.  These range from inputs outputs and Digital signal processing and common protocol implementation through both software and hardware. I am capable of using an MPU without a peripheral interface by inspection of the system implementation and available resources to put together a useable interface for further software implementation.  I am familiar with profiling/ optimisation and debugging techniques for embedded systems.<br><br>
   </p>
-    <h3 class=subsection>Concurrent Programming: </h3> <p class="info"> Concurrent programming is facilitated in C over both Embedded systems and Linux operating systems. By use RTOS implementations embedded systems have been programmed concurrently working over multiple tasks to achieve well schedule programs for complexity tie critical system implementations. <br><br> Using the Linux system and C bindings the multithreaded programming of a software implementation can run over 3 different interfaces to support which even counts for distributed systems, co-processing and multithreaded programming.  This is supported by understanding of distributed system master node implementations to servers and other methodologies of handling large scale parallel computing systems. <br><br>
+    <h4 class=subsection>Concurrent Programming: </h4> <p class="info"> Concurrent programming is facilitated in C over both Embedded systems and Linux operating systems. By use RTOS implementations embedded systems have been programmed concurrently working over multiple tasks to achieve well schedule programs for complexity tie critical system implementations. <br><br> Using the Linux system and C bindings the multithreaded programming of a software implementation can run over 3 different interfaces to support which even counts for distributed systems, co-processing and multithreaded programming.  This is supported by understanding of distributed system master node implementations to servers and other methodologies of handling large scale parallel computing systems. <br><br>
     </p>
-    <h3 class=subsection>General programming: </h3>  <p class="info">C for general programming as implementation of compiling code sources, and interfacing through terminal interfaces for program testing and execution of these program implementations primarily. Knowledge of proper malloc and dynamically allocated memory and data structure for safe memory and system stability is also understood. As well as other more sophisticated C structures.   
+    <h4 class=subsection>General programming: </h4>  <p class="info">C for general programming as implementation of compiling code sources, and interfacing through terminal interfaces for program testing and execution of these program implementations primarily. Knowledge of proper malloc and dynamically allocated memory and data structure for safe memory and system stability is also understood. As well as other more sophisticated C structures.   
   </p>
-   <h2 class="heading3" id="sql_id"> SQL:</h2>
+ 
+   <h2 id="sql_id"> SQL:</h2>
    <p class="info">I have understand of the design and in depth understanding of the theory behind an distributed large scaler server and database system. Specifically, the syntax for SQL databases on Linux a terminal interface, while server orientated SQL instances are the same in semantic operation, only some version of SQL are know syntactically an these differ slightly. <br><br> In this interface specific queries of intricate database systems are used to extract information given specific search criteria being able to sort, group and reduce over through search conditions. Understanding of the external application and layers of these implemented database systems and theory storage of databases and data structures memory allocation, growth and interfaces that are immutable as well as implications for designing mutable user interfaces.</p>
-   <h2 class="heading4" id="java_id"> Java:</h2>
+   
+   <h2 id="java_id"> Java:</h2>
     <p class="info"> what i kno in java and try exhibit the game i made and my other projects that have it envolved.
     Jave the the least used programmign lanuage tha I knwo, but i have some faily impressive results form it wihtout trying to boast.
     This game was made from Java, I specfically developed an interface in which the rest of the game ran on, 
@@ -71,7 +82,8 @@ I have dabbled in low level python coding and have a keen interest in developing
     I have understnading off all the basic aespects of using java as an object orintated programming language and how they might be implicated -
       this leads to windows, and management/handeling of these UIs. 
    </p>
-   <h2 class="heading5" id="html_id"> HTML:</h2>
+  
+   <h2 id="html_id"> HTML:</h2>
    <p class="info">give some examples of a few differn we pages of this website i have made with a varity of themes.
      iamges of this web page in development.
   </p>
