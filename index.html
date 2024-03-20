@@ -6,10 +6,10 @@
 </head>
 <body id="in">
 
-
+<div class="frame">
   
 <!-- Site navigation menu -->
- <div class="container">
+
    <ul class="navbar">
        <li><a>
          <!-- <div class="dl-button">
@@ -31,59 +31,62 @@
        <li><a href="_includes/CompSciGraphics_pg.html">Computer Graphics Work.</a>
     <li><a href="links.html">My hobbies: Exibition of me.</a>
    </ul>
- </div>
+
 
 
 <!-- Main content -->
-<h1 class="title">Welcome to my portfolio!</h1>
-<div class="frame">
-<div class="image">
-<container class="prof">
-  <img class="prof" src="assets/img/Liam_DP.jpg">
-  
-<!-- Sign and date the page, it's only polite! -->
-<credit class="prof"> <em>Made 30 Augaust 2021<br>
-  by Liam K. May.</em>
-</credit >
-</container>
-</div>
-  
-    <script>
-		  var r = document.querySelector(':root');
-		  const element = document.getElementById("total_height");
-		  let scroll_height = element.scrollHeight ;
-			 var a = getComputedStyle(r);
-			 var c = a.getPropertyValue('--height');
-			 
-			 document.getElementById ("demo").innerHTML = "current:" + c + "heihgtL:" + scroll_height;
-			 
-			 r.style.setProperty('--height', scroll_height + 'px');
-			 c = a.getPropertyValue('--height');
-			 document.getElementById ("demo1").innerHTML = "current:" + c + "heihgt:" + scroll_height;
-          
-           
-    </script>
-<div class="text">
-<h2 class="about_me">A bit about me:</h2>
-  
-<p class="bio">
-  I'm a computer science and product design student graduate from University of Canterbury. 
-  I'm interested in the low end of the computer science and Product Design domains, initially embarking on my life of higher
-  education to play with robots/prosthetics. I started looking at Mechatronics engineering, but quickly
-  decided that was not the route for me, moving towards a computer science and product design pathway in 
-  my intermediate year. This route has left me in a very exciting situation and I can't wait to see
-  where I end up! 
-  
-  <br><br>
-  Outside of study, I play Ice Hockey on a regular basis and also enjoy riding dirtbikes. 
-  I am also creative playing guitar from a young age this has led 
-  to the part composition of an Extended Play (EP). As well as being highly involved in the fine 
-  arts of painting and design, which is am musing to develop a game, in which I am doing the 
-  concept artwork for – This is on the backburner because other priorities have taken place - 
-  but perhaps one day I will finish or meet others to join my project.</p>
-  </div>
 
-  </div>
+	<div class="image">
+	<container class="prof">
+	  <img class="prof" src="assets/img/Liam_DP.jpg">
+	  
+	<!-- Sign and date the page, it's only polite! -->
+	<credit class="prof"> Christchurch, New Zealand <br> Date of Birth: 26/03/1995 <br> Qualificatinos from the <br>University of Canterbury: <br>Postgraduate Diploma  of Computer Science  <br> Bachelor of Industrial Product Design  <br> Bachelor of Computer Science  <br> <em>Made 30 Augaust 2021<br>
+	  by Liam K. May.</em>
+	</credit >
+	</container>
+	</div>
+	<div class="inner-frame">
+		<div class="text">
+	<h1 class="title">Welcome to my portfolio!</h1>
+
+
+	  
+		<script>
+			  var r = document.querySelector(':root');
+			  const element = document.getElementById("total_height");
+			  let scroll_height = element.scrollHeight ;
+				 var a = getComputedStyle(r);
+				 var c = a.getPropertyValue('--height');
+				 
+				 document.getElementById ("demo").innerHTML = "current:" + c + "heihgtL:" + scroll_height;
+				 
+				 r.style.setProperty('--height', scroll_height + 'px');
+				 c = a.getPropertyValue('--height');
+				 document.getElementById ("demo1").innerHTML = "current:" + c + "heihgt:" + scroll_height;
+			  
+			   
+		</script>
+
+	
+		<h2 class="about_me">A bit about me:</h2>
+		  
+		<p class="bio">
+		  I'm a computer science and product design student graduate from University of Canterbury. 
+		  I'm interested in the low end of the computer science and Product Design domains, initially embarking on my life of higher
+		  education to play with robots/prosthetics. I started looking at Mechatronics engineering, but quickly
+		  decided that was not the route for me, moving towards a computer science and product design pathway in 
+		  my intermediate year. This route has left me in a very exciting situation and I can't wait to see
+		  where I end up! 
+		  
+		  <br><br>
+		  Outside of study, I play Ice Hockey on a regular basis and also enjoy riding dirtbikes. 
+		  I am also creative playing guitar from a young age this has led 
+		  to the part composition of an Extended Play (EP). As well as being highly involved in the fine 
+		  arts of painting and design, which is am musing to develop a game, in which I am doing the 
+		  concept artwork for – This is on the backburner because other priorities have taken place - 
+		  but perhaps one day I will finish or meet others to join my project.</p>
+
 
 <h2 >Here are some branches to Design and Computer science:</h2>
   <p>Feel free to look at it all!</p>
@@ -120,6 +123,9 @@
     multithreading and distributed computing underlying the application of supercomputer construction and program implementation. I am capable of Machine 
     Learning programming over Computer vision, Natural Language Programming and other Machine learning applications.</p> 
 
+		</div>
 
+	</div>
+</div>
 </body>
 </html>

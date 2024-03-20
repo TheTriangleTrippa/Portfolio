@@ -1,14 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html >
+<html id="total_height">
+	
+	    <script>
+		  var r = document.querySelector(':root');
+		  const element = document.getElementById("total_height");
+		  let scroll_height = element.scrollHeight ;
+			 var a = getComputedStyle(r);
+			 var c = a.getPropertyValue('--height');
+			 
+			 document.getElementById ("demo").innerHTML = "current:" + c + "heihgtL:" + scroll_height;
+			 
+			 r.style.setProperty('--height', scroll_height + 'px');
+			 c = a.getPropertyValue('--height');
+			 document.getElementById ("demo1").innerHTML = "current:" + c + "heihgt:" + scroll_height;
+          
+           
+    </script>
 <head>
    <title>Liam May Portfolio</title>
   <link rel="stylesheet" href="../assets/css/stylesheet.css">
 
  </head>
- <body id="total_height">
+ <body >
    
 <!-- Site navigation menu -->
-<div class="nav-frame">
+<div class="frame-pages">
 	
 	
          
@@ -25,8 +41,11 @@
      <li><a href="CompSciGraphics_pg.html">Computer Graphics Work.</a>
   <li><a href="links_pg.html">My hobbies: Exibition of me.</a>
 </ul>
-</div>
+
     
+    <div class="inner-frame">
+		
+     <div class="text">
     <!-- Content -->
     <h1 class="title"> A compeadium of my computer science <br>enducation and my interest in the field.</h1>
     
@@ -87,6 +106,10 @@ I have dabbled in low level python coding and have a keen interest in developing
    <p class="info">give some examples of a few differn we pages of this website i have made with a varity of themes.
      iamges of this web page in development.
   </p>
+   </div>
+   </div>
+  </div>
+	  
  </body>
 </html>   
     
