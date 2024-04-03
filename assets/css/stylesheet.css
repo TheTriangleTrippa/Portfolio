@@ -35,7 +35,7 @@ body {
   grid-template-columns: 10em 65% auto;
 align-content: space-around;
   top: 2em;
-    margin-top: -2.5em;
+
      text-align: left;
     height: 100%;
  
@@ -233,7 +233,7 @@ position: sticky;
     
     
     border: 1px solid none;
-    <!--padding-top: 4em;-->
+
     }
 
   ul.navbar a {
