@@ -541,7 +541,8 @@ align-content: center;
 
 
 details > p {
-  color: #000000 
+  color: #000000 ;
+
 }
 
 
@@ -551,12 +552,21 @@ details:hover{
   details[open] {
     border-bottom: 1px solid #aaa;
     margin-bottom: 3em;
+    background-color: #F0F0F6;
+    padding: 1em;
+    margin-right: -1em;
+    margin-left: -1em;
+
    
   }
   details[open] > summary {
+    background-color: #EBEBF2;
     border-bottom: 1px solid #aaa;
+    border-top: 2px solid #F5F5FA;
     margin-bottom: 0.5em;
     width: 100%;
-
+    padding: 0.5em;
+    margin-left: -1em;
+   
   }
   
