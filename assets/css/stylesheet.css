@@ -1,6 +1,6 @@
 :root{
 	--height: 100%;
-
+background-color: #3d3d4d00;
 }
 
 html {
@@ -26,25 +26,34 @@ body {
 }
 
 .frame {
+
   display: grid;
-	width: 65%;
+	width: 100%;
   background-color: none; /* Green */
   border: none;
   color: black;
-  grid-template-columns: 10em 100% 11em;
+  grid-template-columns: 10em 65% auto;
 align-content: space-around;
   top: 2em;
-    left: 1em;
+    margin-top: -2.5em;
      text-align: left;
     height: 100%;
  
 }
 .center {
+position: -webkit-sticky;
+position: sticky;
  display: grid;
  grid-template-columns: 1fl;
 place-self: center;
 
 }	
+.sticky {
+
+margin-top: -10em;
+
+}	
+
 p.disclaimer {
 
 background-color: #EEDFDF;
@@ -57,7 +66,7 @@ background-color: #EEDFDF;
 
 grid-column: 2;
 grid-row: 1;
-		   background-color: none; /* Green */
+background-color: #ffffff;
 		   border-right-style: solid;
 		   border-right-width: thin;
 		   border-right-color: #AAAAAA;
@@ -72,9 +81,10 @@ grid-row: 1;
 
 
 .frame-pages {
+
   display: grid;
 	width: 65%;
-  background-color: none; /* Green */
+ 
   border: none;
   color: black;
   grid-template-columns: 10em 100%;
@@ -91,38 +101,40 @@ align-content: space-around;
 		 
 		  grid-column: 2;
 		   background-color: #F7F7FD; /* Green */
-
+      
 		   padding: 2.5em;
 		    margin-top:-2.5em;
-
 		 }
 		 
-
 		 
 		.image{
-		
+      
 		  grid-column: 3;
 			grid-row: 1;
-			  margin-left: 1em;
-			   margin-top: 3.5em;
-	
+			  padding-left: 1em;
+        padding-right: auto;
+       
+			   padding-top: 5.5em;
+         margin-top: -2.5em;
+         background-color: none;
 		}    
 		
 
 ul.navbar {
 
- position: sticky;
+position: -webkit-sticky;
+position: sticky;
+	  top: 0;
     list-style-type: none;
     padding: 0;
     margin: 0;
-  grid-column: 1;
-  grid-row: 1;
+    
     color: #000000;
-    top: 4em;
-    left: 1em;
-    width: 9em;
-background-color: #FFFFFF;
-	height: var(--height);
+  
+   
+    width: 10em;
+background-color: none;
+
 	  margin-top: -2.5em;
 	  padding-top: 5.5em;
 	
@@ -152,6 +164,14 @@ background-color: #FFFFFF;
     top: 13em;
   
     width: 85% }
+
+    p.discourse-disclaimer {
+      text-align: justify;
+      top: 13em;
+      font-size: 10pt;
+      font-style: italic;
+      background-color:  #F0F0FF;
+      width: 85% }
 
         h1.title {
     font-family: Helvetica, Geneva, Arial,
@@ -204,11 +224,15 @@ h4 {
 }
 
   ul.navbar li {
-    background: #F8F8FA;
+  position: -webkit-sticky;
+position: sticky;
+    background: none;
     margin: 0.5em;
     padding: 0.3em;
-    border-right: 1em solid black;
-    border: 1px solid #E5E5F1;
+    display: center;
+    
+    
+    border: 1px solid none;
     <!--padding-top: 4em;-->
     }
 
@@ -257,9 +281,22 @@ h4 {
 	
 }
 
+.design-image {
+	display: grid;
+  grid-auto-flow: columns;
+  grid-template-columns: repeat(3, auto);
+
+  gap: 2em;
+	 text-align: center;
+	 width: 100%;
+   margin-bottom: 1em;
+	
+}
+
 .image-item-start {
 		  grid-column: 1;
 		  grid-row: 1;
+
 }
 
 .image-item-end {
@@ -269,8 +306,16 @@ h4 {
 
 
 address.site_signing{
- position: inline-block;
- right: 12em;   
+		
+    position: inline-block;
+		padding-right: -7 em;
+		margin-right: 1em;
+          text-align: right;
+          font-size: 11px;
+          grid-column: 3;
+          margin-top: -0.5em;
+          
+           
       
 }
 
@@ -287,12 +332,15 @@ address.site_signing{
 
 
 container.display {
-          
+           margin-left: auto;
+            margin-right: auto;
           position: inline-block;
           text-align: left;
           top: 13em;
           left: 12em;
           width: 55%;
+
+        
           }
           
           
@@ -305,18 +353,27 @@ img.display  {
           position: inline-block;
           text-align: left;
          width: 55%;
+        
           }
 
+img.product-design  {
+          
+    position: inline-block;
+    text-align: left;
+    width: 18em;
+ 
+          
+}
 
 container.prof {
           
-	
+  position: inline-block;
           text-align: right;
           top: 7em;
           left: 62%;
           width: 10em;
        
-
+          
           }
 
 img.prof  {
@@ -324,11 +381,14 @@ img.prof  {
 		  position: inline-block;
           text-align: left;
           width: 100%;
+          max-width: 10em;
+   
           }
 credit.prof  {
           
           position: inline-block;
           text-align: left;
+         
           font-size: 11px;
            
           }
@@ -336,7 +396,7 @@ credit.prof  {
 
 
   .sci-button .button {
- position: inline-block;
+    position: inline-block;
   border-radius: 4px;
   background-color: #3399ff;
   border: none;
@@ -383,9 +443,11 @@ svg.git-icon {
 }
 
  .nav-button {
+  margin-left: auto;
+  margin-right: auto;
  background: #F5F5FA;
 border: rgba(0, 0, 0,1);
-
+align-content: center;
   border-radius: 6px;
   text-align: center;
   font-size: 16px;
@@ -443,4 +505,4 @@ border: rgba(0, 0, 0,1);
   opacity: 1;
   right: 0;
 }
-}
+
