@@ -281,6 +281,17 @@ position: sticky;
 	
 }
 
+.knife-image {
+	display: grid;
+  grid-auto-flow: columns;
+  grid-template-columns: repeat(2, auto);
+
+  gap: 2em;
+	 text-align: center;
+	 width: 100%;
+   margin-bottom: 1em;
+	
+}
 .design-image {
 	display: grid;
   grid-auto-flow: columns;
@@ -346,16 +357,29 @@ container.display {
           
 
           
-              
+          img.concept  {
+          
+            position: inline-block;
+            text-align: left;
+           width: 100%;
+          
+            }           
 
-img.display  {
+img.knife-design  {
           
           position: inline-block;
           text-align: left;
-         width: 55%;
+         width: 100%;
         
           }
 
+          img.display  {
+          
+            position: inline-block;
+            text-align: left;
+           width: 55%;
+          
+            }
 img.product-design  {
           
     position: inline-block;
