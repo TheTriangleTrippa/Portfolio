@@ -319,9 +319,9 @@ position: sticky;
 address.site_signing{
 		
     position: inline-block;
-		padding-right: -7 em;
-		margin-right: 1em;
-          text-align: right;
+		padding-left: 1em;
+	
+          text-align: left;
           font-size: 11px;
           grid-column: 3;
           margin-top: -0.5em;
