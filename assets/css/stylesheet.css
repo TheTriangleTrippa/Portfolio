@@ -553,7 +553,9 @@ details:hover{
     border-bottom: 1px solid #aaa;
     margin-bottom: 3em;
     background-color: #F0F0F6;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
     margin-right: -1em;
     margin-left: -1em;
 
@@ -565,7 +567,7 @@ details:hover{
     border-top: 2px solid #F5F5FA;
     margin-bottom: 0.5em;
     width: 100%;
-    padding: 0.5em;
+   
     margin-left: -1em;
    
   }
